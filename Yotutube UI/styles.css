@@ -1,0 +1,111 @@
+.nav{
+    display: flex;
+    justify-content: space-between
+}
+
+.right{
+    display: flex;
+    width: 183px;
+    justify-content: center;
+    gap: 4px;
+    height: 38px;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+}
+#searchbar{
+    width: 486px;
+}
+#search{
+    margin-right: 1rem;
+}
+.button {
+    background-color:white;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+}
+.container{
+    display:flex;
+    max-width: 100%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 8px;
+    height: 110vh;
+    background-color: rgb(241, 231, 231);
+}
+    
+.thumbnail {
+    max-width: 250px;
+}
+.sub1{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-right: 17px;
+}
+
+.sub2{
+    width: 100%;
+}
+
+.chakra{
+    height: 150px;
+    width: 250px;
+    
+}
+.card-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    font-weight: 600;
+}
+.p-margin{
+    margin-top: -30px;
+}
+.card-sub2{
+    display: flex;
+    height: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 48px;
+    margin-top: -13px;
+}
+.button-1{
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.button-2{
+    background-color: rgb(241, 231, 231);
+    border: black 1px solid;
+    color: rgb(15, 15, 15);
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: #000000;
+}
